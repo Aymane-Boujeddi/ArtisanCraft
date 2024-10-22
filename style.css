@@ -248,7 +248,7 @@ h3 {
     color: #000;
     margin-top: 20px;
     font-family: Roboto;
-    font-size: 26px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 400;
     line-height: 47px
@@ -326,4 +326,181 @@ button:hover {
     background-color: #904B23;
     transform: scale(1.1);
     color: wheat;
+}
+@media (max-width: 992px) {
+    .dtl_parent1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parent1_div1, .parent1_div2 {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .parent1_button {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parent1_button button {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .info img {
+        width: 60%;
+    }
+
+    .line {
+        width: 90%;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .dtl_parent1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parent1_div1, .parent1_div2 {
+        width: 90%;
+    }
+
+    .info img {
+        width: 80%;
+    }
+
+    .para {
+        width: 90%;
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .line {
+        font-size: 35px;
+    }
+    .detl2{
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 576px) {
+    .parent1_div1 h1 {
+        font-size: 28px;
+    }
+
+    .parent1_div2 h3, .parent1_div2 p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .info {
+        font-size: 20px;
+    }
+
+    .info img {
+        width: 100%;
+    }
+
+    .para {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .line {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .parent1_button button {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .detl2{
+        font-size: 50%;
+    }
+}
+
+section.section1 .about1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+section.section1 .about1 .about1_content {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+section.section1 .about1 .about1_content h1 {
+    font-size: 45px;
+    color: #B77956;
+    margin-bottom: 48px;
+    font-weight: 700;
+}
+section.section1 .about1 .about1_content p {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    margin-bottom: 100px ;
+}
+
+section.section1 .about1 .about1_image {
+    width: 40%;
+   
+}
+section.section1 .about1 .about1_content .btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+section.section1 .about1 .about1_content #button button{
+    width: 200px;
+    height: 56px;
+    border-radius: 10px;
+    background: rgba(183, 121, 86, 0.85);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+
+/*---------------------separateur-----------*/
+
+section.separateur {
+    min-height: 116px ;
+    background-color: #904B23;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.separateur h1 {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/*-----------------------Section 2 --------------------*/
+
+section.section2 p {
+    margin: 75px auto;
+    color: black;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    width: 50%;
+}
+section.section2 {
+
 }
