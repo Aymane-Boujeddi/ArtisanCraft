@@ -3,9 +3,9 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: font-family: 'Roboto', sans-serif;
     line-height: 1;
     list-style: none;
-    font-family:  'Roboto', sans-serif;
 }
 
 body {
@@ -113,27 +113,62 @@ footer .footer-inner {
 
 /*------------Section 1--------------------*/
 
-section.section1 .about1 {
+.about_section1 .container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
+<<<<<<< HEAD
+.about_section1 .container .content {
+    width: 40%;
+    padding: 50px auto;
+=======
 
 section.section1 .about1 .about1_content {
     width: 50%;
+>>>>>>> f3616c319798ce2f50e42ba73311a9c908954b6a
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 100px auto;
 
 }
+<<<<<<< HEAD
+.about_section1 .container .content h1 {
+=======
 
 section.section1 .about1 .about1_content h1 {
+>>>>>>> f3616c319798ce2f50e42ba73311a9c908954b6a
     font-size: 45px;
     color: #B77956;
     margin-bottom: 48px;
     font-weight: 700;
 }
+<<<<<<< HEAD
+.about_section1 .container .content p {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.56px;
+    line-height: normal;
+    margin-bottom: 100px ;
+}
+
+.about_section1 .container .image  {
+    max-width: 40%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+}
+.about_section1 .container .image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+    
+}
+.about_section1 .container .content .btn {
+=======
 
 section.section1 .about1 .about1_content p {
     font-size: 18px;
@@ -148,35 +183,59 @@ section.section1 .about1 .about1_image {
 }
 
 section.section1 .about1 .about1_content .btn {
+>>>>>>> f3616c319798ce2f50e42ba73311a9c908954b6a
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
 }
+<<<<<<< HEAD
+.about_section1 .container .content #button button{
+    padding: 10px 30px;
+=======
 
 section.section1 .about1 .about1_content #button button {
     width: 200px;
     height: 56px;
+>>>>>>> f3616c319798ce2f50e42ba73311a9c908954b6a
     border-radius: 10px;
     background: rgba(183, 121, 86, 0.85);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     color: #FFF;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
     cursor: pointer;
+<<<<<<< HEAD
+    margin: 10px 30px;
 
+    
+=======
+
+>>>>>>> f3616c319798ce2f50e42ba73311a9c908954b6a
 }
 
 /*---------------------separateur-----------*/
 
+<<<<<<< HEAD
+.about_separateur {
+    width: 100%;
+    height: 116px ;
+=======
 section.separateur {
     min-height: 116px;
+>>>>>>> f3616c319798ce2f50e42ba73311a9c908954b6a
     background-color: #904B23;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+<<<<<<< HEAD
+.about_separateur h1 {
+=======
 
 section.separateur h1 {
+>>>>>>> f3616c319798ce2f50e42ba73311a9c908954b6a
     color: #FFF;
     font-size: 45px;
     font-weight: 700;
@@ -184,7 +243,8 @@ section.separateur h1 {
 
 /*-----------------------Section 2 --------------------*/
 
-section.section2 p {
+
+.about_section2 p:first-child {
     margin: 75px auto;
     color: black;
     text-align: center;
@@ -193,6 +253,12 @@ section.section2 p {
     width: 50%;
 }
 
+section.section2 {}
+
+
+
+
+
 
 
 /* -----------------media query----- */
@@ -200,8 +266,7 @@ section.section2 p {
 @media screen and (max-width:991px) {
 
     header {
-        width: 90%;
-        margin: 30px auto;
+        margin: 0px auto;
         padding: 0px 13px;
     }
 
@@ -217,6 +282,7 @@ section.section2 p {
 
     .nav__img_logo {
         justify-self: center;
+        
     }
 
 }
@@ -241,12 +307,17 @@ section.section2 p {
     .footer-inner div {
         display: none;
     }
+    .about_section3 {
+        height: auto;
+    }
 }
 
 @media screen and (max-width:598px) {
+    body {
+        max-width: 100%;
+    }
     header {
-        width: 90%;
-        margin: 10px auto;
+        /* width: 100%; */
         padding: 0px 13px;
     }
 
@@ -278,6 +349,115 @@ section.section2 p {
         /* height: 100px; */
         padding: 15px 20px;
     }
+    /*-----About Section1-----*/
+    .about_section1 .container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .about_section1 .container .content {
+        margin:auto;
+        width: 100%;
+        
+    }
+    .about_section1 .container .content p {
+        padding: 2px 20px;
+        line-height: normal;
+        text-align: start;
+        margin-bottom: 30px;
+    }
+    .about_section1 .container .content h1{
+        margin-top: 35px;
+        text-align: center;
+    }
+    .about_section1 .container .content .btn {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        
+    }
+    .about_section1 .container .content .btn button{
+        padding: 6px 20px;
+        
+    }
+    .about_section1 .container .image {
+        max-width: 100%;
+        height: 400px;
+    }
+    .about_section2 p:first-child {
+        margin: 35px;
+        text-align: start;
+        font-size: 23px;
+        font-weight: 500;
+        width: 70%;
+    }
+    .about_section2 .cartes .carte {
+        width: 100%;
+        flex-direction: column;
+        gap:12px;
+    }
+    .about_section2 .cartes .carte .content_container {
+        width: 100%;
+    }
+    .about_section2 .cartes .carte .content_container .content{
+        gap: 10px;
+    }
+    .about_section2 .cartes .carte .content_container p {
+        font-size: 10px;
+        line-height: 1;
+        
+    }
+    .about_section2 .cartes .carte .content_container h3 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .about_section2 .cartes .carte .image {
+        width: 100%;
+        height: 160px;
+        align-self: center;
+        
+    }
+    .about_section2 .cartes .carte .image img {
+        width: 70%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .about_section2 .cartes .carte2 .content_container {
+        order: 0;
+        
+    }
+    .about_section2 .cartes .carte4 .content_container {
+        order: 0;
+        
+    }
+    .about_section3 .content_header {
+        width: 95%;
+    }
+    .about_section3 .content_header p {
+        text-align: start;
+        width: 73%;
+    }
+    .about_section3 .gallery_container .gallery {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,200px);
+    }
+    .about_section3 .gallery_container .gallery .card_1 {
+       grid-row: 1/2;
+       grid-column: span 1;
+    }
+    .about_section3 .gallery_container .gallery .card_2 {
+        grid-row: 2/3;
+        grid-column: span 1;
+    }
+    .about_section3 .gallery_container .gallery .card_3 {
+        grid-row: 3/4;
+        grid-column: span 1;
+    }
+    .about_section3 .gallery_container .gallery .card_4 {
+        grid-row: 4/5;
+        grid-column: span 1;
+    }
+    
 
 }
 
