@@ -3,9 +3,9 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: font-family: 'Roboto', sans-serif;
     line-height: 1;
     list-style: none;
+    font-family:  'Roboto', sans-serif;
 }
 
 body {
@@ -74,9 +74,6 @@ ul a {
     cursor: pointer;
 }
 
-ul li a:hover {
-    background-color: rgba(255, 255, 0, 0.728);
-}
 
 .nav__btn_byNow button:hover {
     background-color: green;
@@ -195,12 +192,6 @@ section.section2 p {
     font-weight: 700;
     width: 50%;
 }
-
-section.section2 {}
-
-
-
-
 
 
 
@@ -341,9 +332,7 @@ h3 {
     font-weight: 400;
     line-height: 47px
 }
-.parent1_div2 p{
-    width: %;
-}
+
 
 .parent1_div2 h3 {
     line-height: 60px;
@@ -647,6 +636,7 @@ section.separateur h1 {
     width: 280px;
     border-radius: 20px;
     background-color: #e8b699;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 }
 
@@ -660,6 +650,10 @@ section.separateur h1 {
 
 .product1 img:hover {
     transform: scale(1.1)
+}
+.product1:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 25px 80px 6px;
 }
 
 .section2_product {
@@ -688,6 +682,7 @@ section.separateur h1 {
     width: 280px;
     border-radius: 20px;
     background-color: #e8b699;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 
 }
@@ -704,6 +699,10 @@ section.separateur h1 {
 .product2 img:hover {
     transform: scale(1.1)
 }
+.product2:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 25px 80px 6px;
+}
 
 .product3 {
     display: flex;
@@ -716,7 +715,7 @@ section.separateur h1 {
     width: 280px;
     border-radius: 20px;
     background-color: #e8b699;
-
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 }
 
@@ -732,6 +731,10 @@ section.separateur h1 {
 .product3 img:hover {
     transform: scale(1.1)
 }
+.product3:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 25px 80px 6px;
+}
 
 .product4 {
     display: flex;
@@ -744,7 +747,7 @@ section.separateur h1 {
     width: 280px;
     border-radius: 20px;
     background-color: #e8b699;
-
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 }
 
@@ -760,6 +763,10 @@ section.separateur h1 {
 .product4 img:hover {
     transform: scale(1.1)
 }
+.product4:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 25px 80px 6px;
+}
 
 .product5 {
     display: flex;
@@ -772,7 +779,7 @@ section.separateur h1 {
     width: 280px;
     border-radius: 20px;
     background-color: #e8b699;
-
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .product5 img {
@@ -787,6 +794,10 @@ section.separateur h1 {
 .product5 img:hover {
     transform: scale(1.1)
 }
+.product5:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 25px 80px 6px;
+}
 
 .product6 {
     display: flex;
@@ -799,7 +810,7 @@ section.separateur h1 {
     width: 280px;
     border-radius: 20px;
     background-color: #e8b699;
-
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .product6 img {
@@ -814,6 +825,10 @@ section.separateur h1 {
 .product6 img:hover {
     transform: scale(1.1)
 }
+.product6:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 25px 80px 6px;
+}
 
 .product7 {
     display: flex;
@@ -826,7 +841,7 @@ section.separateur h1 {
     width: 280px;
     border-radius: 20px;
     background-color: #e8b699;
-
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .product7 img {
@@ -841,6 +856,10 @@ section.separateur h1 {
 .product7 img:hover {
     transform: scale(1.1)
 }
+.product7:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 25px 80px 6px;
+}
 
 .product8 {
     display: flex;
@@ -853,6 +872,7 @@ section.separateur h1 {
     width: 280px;
     border-radius: 20px;
     background-color: #e8b699;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .product8 img {
@@ -865,6 +885,10 @@ section.separateur h1 {
 
 .product8 img:hover {
     transform: scale(1.1)
+}
+.product8:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 25px 80px 6px;
 }
 .section2_product h3{
     margin-top: -20px;
@@ -903,7 +927,7 @@ section.separateur h1 {
     top: -30px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(191, 115, 64, 0.7);
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
@@ -1009,4 +1033,45 @@ section.separateur h1 {
     .product1, .product2, .product3, .product4, .product5, .product6, .product7, .product8 {
         width: 22%;
     }
+}
+.footer-media-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.footer-media-icons a:hover {
+    transform: scale(1.5);
+    filter: brightness(1.5);
+}
+.footer-media-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
+}
+
+.footer-media-icons a:hover {
+    transform: scale(1.5) rotate(10deg);
+    filter: brightness(1.5);
+    opacity: 0.9;
+}
+
+.div_ul_btnByNow ul li a{
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.5s ease, filter 0.5s ease;
+}
+.div_ul_btnByNow ul li a:hover{
+    transform: scale(1.5);
+    filter: brightness(1.5);
+}
+.div_ul_btnByNow ul li a{
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
+}
+.div_ul_btnByNow ul li a:hover{
+    transform: scale(1.5) rotate(10deg);
+    filter: brightness(1.5);
+    opacity: 0.9;
 }
