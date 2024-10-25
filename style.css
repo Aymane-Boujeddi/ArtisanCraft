@@ -2061,3 +2061,48 @@ form .div_button_submit button{
 .home_section03:has(.image_parte_left img) {
     animation: fadeInUp 5s ease forwards;
 }
+.slider {
+    height: 350px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+  }
+  
+  
+  .slide-track {
+    display: flex;
+    width: calc(350px * 18);
+    animation: scroll 30s linear infinite;
+    border: #904B23 2px solid;    
+}
+  
+  @keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 8));
+    }
+  }
+  
+  .slide {
+    height: 5%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  
+  #img-slider {
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+  }
+.container-slider .slider .slide-track .slide{
+    border-radius: 50px;
+
+}
